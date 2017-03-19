@@ -16,5 +16,5 @@ installation d'une ronronbox
  - mise à jour des scripts
  - bibliothèque d'image
  - design de la boite
- - utiliser https://github.com/Giphy/GiphyAPI
+ - utiliser https://github.com/Giphy/GiphyAPI avec des url du type https://media.giphy.com/media/XXX/giphy.gif
  
