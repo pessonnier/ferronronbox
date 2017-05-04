@@ -6,6 +6,8 @@ installation d'une ronronbox
  - un peu plus de configuration de l'écran https://learn.adafruit.com/raspi-animated-gif-picture-frame/installing-the-pitft
  - sudo apt install git
  - sudo pip3 install youtube-dl
+ - sudo apt-get install mplayer
+ - sudo apt-get install fbi
 
 # utilise
  - un rapberry pi
@@ -13,7 +15,11 @@ installation d'une ronronbox
  - des hauts parleurs
  - pygame pour afficher les images
  - un repo git pour stocker message photo sons
- 
+
+# technique
+ - jouer une video : sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl -framedrop bigbuckbunny320p.mp4
+ - afficher un gif :
+ - jouer un son :
 # à faire
  - messagerie
  - agenda
