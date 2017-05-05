@@ -4,7 +4,7 @@ installation d'une ronronbox
 # soft
  - pour l'écran voir https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/software-installation avec l'image https://s3.amazonaws.com/adafruit-raspberry-pi/2016-10-18-pitft-28r.zip
  - un peu plus de configuration de l'écran https://learn.adafruit.com/raspi-animated-gif-picture-frame/installing-the-pitft
-'''
+```
 sudo apt install git
 sudo pip3 install youtube-dl
 sudo apt-get install mplayer
@@ -12,7 +12,7 @@ sudo apt-get install fbi
 sudo pip3 install GPIO
 wget http://adafruit-download.s3.amazonaws.com/adapiluv320x240.jpg
 sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
-'''
+```
 # utilise
  - un rapberry pi
  - un ecran
