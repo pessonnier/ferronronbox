@@ -25,7 +25,12 @@ sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - afficher un gif : sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - jouer un son :
  - telechargement de vidéo : youtube-dl -f 36 https://www.youtube.com/watch?v=g25KM5WffAg
- 
+ - jouer un gif annimé
+ ```
+ import subprocess
+subprocess.call('curl -o metronome.mp4 https://media.giphy.com/media/GFHJXPCoVQEec/giphy.mp4', shell=True)
+subprocess.call('sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl metronome.mp4', shell=True)
+```
 # à faire
  - messagerie
  - agenda
