@@ -24,7 +24,9 @@ sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - jouer une video : sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl -framedrop bigbuckbunny320p.mp4
  - afficher un gif : sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - jouer un son :
- - telechargement de vidéo : youtube-dl -f 36 https://www.youtube.com/watch?v=g25KM5WffAg
+ - telechargement de vidéo : 
+  - youtube-dl -f 36 https://www.youtube.com/watch?v=g25KM5WffAg
+  - youtube-dl -f "best[height<=240]" https://www.youtube.com/watch?v=CyehpawuU4U
  - jouer un gif annimé
  ```
  import subprocess
