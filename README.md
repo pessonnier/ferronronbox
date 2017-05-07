@@ -10,6 +10,8 @@ sudo pip3 install youtube-dl
 sudo apt-get install mplayer
 sudo apt-get install fbi
 sudo pip3 install GPIO
+# install https://pypi.python.org/pypi/mplayer.py/0.7.0
+
 wget http://adafruit-download.s3.amazonaws.com/adapiluv320x240.jpg
 sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
 ```
