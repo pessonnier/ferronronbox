@@ -20,6 +20,7 @@ sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - un ecran
  - des hauts parleurs
  - pygame pour afficher les images
+ - mplayer pour lire les videos, commands : https://www.mplayerhq.hu/DOCS/tech/slave.txt
  - un repo git pour stocker message photo sons
  - youtube-dl : https://github.com/rg3/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L129-L279
 
