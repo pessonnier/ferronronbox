@@ -21,6 +21,7 @@ sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - des hauts parleurs
  - pygame pour afficher les images
  - un repo git pour stocker message photo sons
+ - youtube-dl : https://github.com/rg3/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L129-L279
 
 # technique
  - jouer une video : sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl -framedrop bigbuckbunny320p.mp4
