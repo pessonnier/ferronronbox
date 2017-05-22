@@ -44,3 +44,4 @@ subprocess.call('sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl m
  - reprendre le script d'install https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/pitft-fbcp.sh
  - télécharger la playliste avec youtube-dl https://www.youtube.com/watch?v=0WfcgfGTMlY et curl -o XXXid XXXhttp
  - une IHM avec https://learn.adafruit.com/raspberry-pi-pygame-ui-basics/from-gpio-to-screen?view=all
+ - btt d'arret http://www.pihomeserver.fr/2013/10/25/raspberry-pi-home-server-ajouter-bouton-darret/
