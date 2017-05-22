@@ -3,6 +3,7 @@
 installation d'une ronronbox
 # soft
  - pour l'écran voir https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/software-installation avec l'image https://s3.amazonaws.com/adafruit-raspberry-pi/2016-10-18-pitft-28r.zip
+ - https://wiki.mchobby.be/index.php?title=RASP-PiTFT
  - un peu plus de configuration de l'écran https://learn.adafruit.com/raspi-animated-gif-picture-frame/installing-the-pitft
 ```
 sudo apt install git
@@ -19,7 +20,6 @@ sudo fbi -T 2 -d /dev/fb1 -noverbose -a adapiluv320x240.jpg
  - un rapberry pi
  - un ecran
  - des hauts parleurs
- - pygame pour afficher les images
  - mplayer pour lire les videos, commands : https://www.mplayerhq.hu/DOCS/tech/slave.txt
  - un repo git pour stocker message photo sons
  - youtube-dl : https://github.com/rg3/youtube-dl/blob/master/youtube_dl/YoutubeDL.py#L129-L279
@@ -40,11 +40,7 @@ subprocess.call('sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl m
 # à faire
  - messagerie
  - agenda
- - un script boot imuable
- - mise à jour des scripts
- - bibliothèque d'image
- - design de la boite
  - utiliser https://github.com/Giphy/GiphyAPI avec des url du type https://media.giphy.com/media/XXX/giphy.gif
  - reprendre le script d'install https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/pitft-fbcp.sh
  - télécharger la playliste avec youtube-dl https://www.youtube.com/watch?v=0WfcgfGTMlY et curl -o XXXid XXXhttp
- 
+ - une IHM avec https://learn.adafruit.com/raspberry-pi-pygame-ui-basics/from-gpio-to-screen?view=all
