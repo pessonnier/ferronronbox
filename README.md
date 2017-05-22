@@ -45,3 +45,5 @@ subprocess.call('sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb1 mplayer -vo sdl m
  - télécharger la playliste avec youtube-dl https://www.youtube.com/watch?v=0WfcgfGTMlY et curl -o XXXid XXXhttp
  - une IHM avec https://learn.adafruit.com/raspberry-pi-pygame-ui-basics/from-gpio-to-screen?view=all
  - btt d'arret http://www.pihomeserver.fr/2013/10/25/raspberry-pi-home-server-ajouter-bouton-darret/
+ - btt d'arret qui wait_for_edge http://hardware-libre.fr/2013/07/raspberry-pi-5-ajouter-un-bouton-materiel-avec-python/
+ - btt d'arret qui add_event_detect http://hardware-libre.fr/2013/07/ajouter-un-bouton-dextinction-avec-python/
